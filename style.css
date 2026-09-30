@@ -63,22 +63,24 @@ main {
   margin-left: 25px;
   width: 500px;
 }
-.relative-item {
-  position: relative;
-  top: 20px;  
-  left: 40px; 
-}
+
 .content {
   flex: 1;
   padding: 15px;
 }
 
 /* interests section styles */
-#interests {
+.interests {
   border: 4px silver ridge;
   padding: 8px;
   margin-top: 20px;
 
+}
+
+.interests {
+  position: absolute;
+  top: 200px;  
+  left: 400px; 
 }
 
 h2,
