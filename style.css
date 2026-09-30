@@ -137,7 +137,7 @@ a:active {
 }
 
 #portfolio a:hover {
-  background: #000;
+  background: #564949;
   color: #fff;
   transform: translateX(4px);
 }
