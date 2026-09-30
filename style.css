@@ -60,7 +60,8 @@ main {
 }
 
 .sidebar-img {
-  width: 200px;
+  margin-right: 25px
+  width: 500px;
 }
 
 .content {
@@ -73,6 +74,7 @@ main {
   border: 4px silver ridge;
   padding: 8px;
   margin-top: 20px;
+  
 }
 
 h2,
