@@ -60,10 +60,14 @@ main {
 }
 
 .sidebar-img {
-  margin-right: 25px
+  margin-left: 25px;
   width: 500px;
 }
-
+.relative-item {
+  position: relative;
+  top: 20px;  
+  left: 40px; 
+}
 .content {
   flex: 1;
   padding: 15px;
@@ -74,7 +78,7 @@ main {
   border: 4px silver ridge;
   padding: 8px;
   margin-top: 20px;
-  
+
 }
 
 h2,
