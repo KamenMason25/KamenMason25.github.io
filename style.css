@@ -70,13 +70,13 @@ main {
 }
 
 /* interests section styles */
-.interests {
-  border: 2px double black;
-  padding: 8px;
-  margin-bottom: 20px;
-  margin-left: 250px;
+#interests {
+    border: 4px rgb(0, 0, 0) ridge;
+    padding: 8px;
+    margin-bottom: 200px;
+    border-radius: 20px;
+    margin-left: 550px;
 }
-
 h2,
 h3 {
   margin: 0px;
