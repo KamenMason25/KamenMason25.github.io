@@ -42,7 +42,7 @@ h1 {
   padding: 0 10px;
 }
 
-a {
+.a {
   text-decoration: none;
   color: #fff;
 }
@@ -64,7 +64,7 @@ main {
   width: 500px;
 }
 
-.all-content {
+#all-content {
   flex: 1;
   padding: 15px;
 }
@@ -80,7 +80,25 @@ main {
     margin-top: -25px;
 }
 
-h3 {
+h2 {
+  margin: 0;
+  font-size: clamp(4rem, 10vw, 7rem);
+  line-height: 0.9;
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.content > p {
+  margin: 0;
+  color: #000000;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  line-height: 1.4;
+}
+.h3 {
   margin-left: 50px;
   margin-bottom: 70px;
 }
