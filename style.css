@@ -64,7 +64,7 @@ main {
   width: 500px;
 }
 
-.content {
+.all-content {
   flex: 1;
   padding: 15px;
 }
@@ -73,13 +73,16 @@ main {
 #interests {
     border: 4px rgb(0, 0, 0) ridge;
     padding: 8px;
-    margin-bottom: 200px;
+    margin-bottom: 70px;
     border-radius: 20px;
-    margin-left: 550px;
+    margin-left: 750px;
+    font-size: 28px;
+    margin-top: -25px;
 }
-h2,
+
 h3 {
-  margin: 0px;
+  margin-left: 50px;
+  margin-bottom: 70px;
 }
 /* unvisited link */
 a:link {
