@@ -74,12 +74,8 @@ main {
   border: 4px silver ridge;
   padding: 8px;
   margin-top: 20px;
-
-}
-
-.interests {
   position: absolute;
-  top: 200px;  
+  bottom: 200px;  
   left: 400px; 
 }
 
