@@ -22,7 +22,7 @@ nav {
   padding: 10px;
   margin-bottom: 20px;
 }
-w h1 {
+h1 {
   display: flex;
   align-items: center;
   color: white;
@@ -71,12 +71,10 @@ main {
 
 /* interests section styles */
 .interests {
-  border: 4px rgb(0, 0, 0) ridge;
+  border: 2px double black;
   padding: 8px;
-  margin-top: 20px;
-  position: absolute;
-  bottom: 200px;  
-  left: 400px; 
+  margin-bottom: 20px;
+  margin-left: 250px;
 }
 
 h2,
