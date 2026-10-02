@@ -50,13 +50,15 @@ h1 {
 /* main container area beneath menu */
 main {
   background: rgb(245, 238, 219);
-  display: flex;
+  display: block;
   margin-top: 20px;
+  border:rgb(0, 0, 0);
 }
 
 .sidebar {
   margin-right: 25px;
   padding: 10px;
+  width: 100%;
 }
 
 .sidebar-img {
@@ -98,7 +100,7 @@ h2 {
   letter-spacing: 0.15em;
   line-height: 1.4;
 }
-.h3 {
+h3 {
   margin-left: 50px;
   margin-bottom: 70px;
 }
