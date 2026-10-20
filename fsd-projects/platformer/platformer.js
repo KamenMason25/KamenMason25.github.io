@@ -44,15 +44,19 @@ $(function () {
     createPlatform(1150, 250, 2, 4);
     createPlatform(950, 400, 40, 4);
     createPlatform(925, 350, 2, 15);
-
+    createPlatform(580, 470, 75, 15);
+    createPlatform(1200, 650, 65, 15);
+  createPlatform(1200, 450, 65, 15);
+    createPlatform(1100, 550, 2, 4);
     // TODO 3 - Create Collectables
     createCollectable("diamond", 600, 425);
     createCollectable("diamond", 950, 350);
-
+    createCollectable("diamond", 1250, 400);
     // TODO 4 - Create Cannons
 
     createCannon("top", 200, 500);
     createCannon("right", 200, 400);
+    createCannon("bottom", 1220, 500);
 
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
